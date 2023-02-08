@@ -1,0 +1,86 @@
+{
+	margin: 2px;    /* definir margens do navegador */
+	padding: 2px;   /*definir espaços os elementos */
+    
+}
+body{
+	background-color:rgba(81, 68, 117, 0.61); 				/* cor do fundo da página*/
+}
+h1{
+    text-align: center;	 								/* margem esquerda */
+	color:#2c1f42; 											/* cor da fonte */	
+	font-family:Verdana, Geneva, Tahoma, sans-serif /* tipo de fonte */
+	margin-to: 200px; 										/* margem do topo */
+	margin-bottom:20px; 									/* margem da base */
+    text-shadow:4px 1px rgba(255, 255, 255, 0.61); 					/* sombra do texto - tamanho, deslocamento e cor */	
+}
+.flex-container {
+
+    display: flex;
+    text-align:center;
+    height: 140px;
+    width: flex;
+    border-radius:20px;
+    margin-top:30px;
+	background-color:rgb(83, 41, 122);
+	
+}
+#box{  															/* div id - sempre idenficada pelo símbolo "#" */
+	
+    margin-;
+    text-align: center;
+    width: 0 auto;												/*largura do bloco de conteúdo */
+	height: 128px;												/* altura autmomática para preenchimento de conteúdo */
+	margin-left:30px;
+    margin-right: 30px;										/* margem esquerda */
+	padding: auto;	/* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+	background-color:rgb(189, 201, 247);		/* cor do box */
+	border-radius:15px;									/* arrendondamento de bordas do box */
+	box-shadow:2px 4px 8px black; 				/* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+#imagem{ 														/* div id - sempre idenficada pelo símbolo "#" */
+	height:0 auto;												/* largura do bloco de conteúdo */
+	height:0 auto;												/* altura autmomática para preenchimento de conteúdo */
+	width:0 auto;
+	align-content: center;
+	margin-left:30px;										/* margem esquerda */
+	padding: 20px 20px 20px 20px; 					/* margens internas do bloco - superior, direito, inferior e esquerdo 20px. */
+	background-color:rgb(189, 201, 247);		/* cor do box */
+	border-radius:15px; 									/* arrendondamento de bordas do box */
+	box-shadow:2px 4px 8px black; 				/* sombra do box - tamanho, deslocamento, enevoamente e cor */
+}
+th{
+    align-items: center;
+	background-color: rgb(133, 126, 235);
+	box-shadow:2px 4px 8px black;
+	width:150px;
+    height: 100ps;
+    border-radius: 5px;
+    text-align: center;
+}
+h3{
+	font-family:"tahoma"; /* tipo de fonte */
+	color:black; /* cor da fonte */
+    height: flex;
+	margin-top:10px; /* margem da base */
+    text-align: center;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif; /* tipo de fonte */
+	color:#808080; /* cor da fonte */
+	text-align:justify; /* alinhamento do texto */
+	margin-top:20px; /* margem do topo */
+	line-height: 20px; /* espaçamento entre linhas */
+	text-indent: 30px; /* tabulação da primeira linha */
+}*
+a{
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: rgb(7, 7, 7)
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:cornflowerblue;
+}
